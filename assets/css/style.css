@@ -16,6 +16,9 @@ img{
     --secondary-color: #d8d5d5;
 }
 
+
+
+
 /* logo section  */
 #logo{
     display: flex;
@@ -49,7 +52,7 @@ img{
     /* border: 2px solid red; */
     padding-top: 0rem;
     display: flex;
-    margin-left: 40rem;
+    margin-left: 38rem;
 }
 
 #logo .all a{
@@ -482,7 +485,7 @@ width: 25%;
     margin-left: 6%;
 
 }
-#featured .featured-images{
+#featured .featured-images {
     width: 10%;
     /* border: 2px solid red; */
     display: flex;
