@@ -768,3 +768,415 @@ text-align: left;
     font-size: 1rem;
     color: var(--primary-color);
 }
+
+
+/* media query */
+
+/* max width  */
+@media (max-width:420px){
+
+/* logo section  */
+#logo{
+    /* border: 2px solid red; */
+    width: 100%;
+    gap: 1.5rem;
+    height: 7vh;
+}
+#logo .hawk{
+    /* border: 2px solid red; */
+    width: 10%;
+    height: 9vh;
+    padding: 0rem;
+}
+
+#logo .hawk img{
+    /* margin-bottom: 0.5rem; */
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 6.5vh;
+    margin-bottom: 7rem;
+    margin-left: 1rem;
+
+}
+
+#logo .logo-name h1 a{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    /* border: 2px solid red; */
+   
+}
+
+/* social media section  */
+#logo .all{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 2rem;
+}
+
+#logo .all a{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    padding-left: 0.2rem;
+    padding-top: 0.4rem;
+}
+    
+#logo .hawk h1 a{
+    color: var(--main-color);
+    font-size: 4rem;
+}
+
+/* navbar */
+#navbar{
+    background-color: var(--main-color);
+}
+
+#navbar div{
+    /* border: 2px solid red; */
+    padding: 0rem;
+    padding-bottom: 0.2rem;
+}
+
+#navbar div ul li{
+    display: inline; 
+    font-size: 0.8rem;
+    
+}
+#navbar div ul{
+    /* border: 2px solid red; */
+    width: 80%;
+}
+
+#navbar div ul li a{
+    color: var(--primary-color)
+}
+
+
+/* Index Banner Display */
+#banner{
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+/* banner left section  */
+#banner .bannerl{
+   background: url(/assets/images/Designer.jpg);
+   height: 30vh;
+   width: 50%;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* left banner  */
+#banner .bg-left{
+    height: 100%;
+    background: var(--secondary-color);
+    opacity: 30%;
+    position: relative;
+}
+#banner .bannerl-content{
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    width: 25%;
+    text-align:left;
+}
+
+#banner .bannerl .statementl{
+    /* background: red; */
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 65%;
+    margin-left: 10%;
+    padding-left: 11%;
+}
+#banner .bannerl .statementl a{
+    background-color: red;
+    border-radius: 0.2rem;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    color: var(--primary-color);
+    margin-left: 3rem;
+}
+#banner .bannerl .statementl .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--main-color);
+    opacity: 80%;
+}
+
+#banner .bannerr .statementr{
+    /* background: red; */
+    font-size: 2rem;
+    position: absolute;
+    bottom: 62.5%;
+    margin-right: 20%;
+    padding-left: 1%;
+}
+#banner .bannerr .statementr a{
+    background-color: red;
+    border-radius: 0.2rem;
+    font-size: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    color: var(--primary-color);
+    margin-left: 1rem;
+}
+#banner .bannerr .statementr .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--main-color);
+    opacity: 80%;
+}
+
+#banner .bannerl-content .designer{
+    font-size: 1rem;
+}
+
+#banner .bannerl-content .designer .btn:hover{
+    color: #d61b1b;
+}
+#banner .bannerl-content .designer-paragraph{
+    font-size: 0.4rem;
+    padding-right: 1.2rem;
+    /* border: 2px solid red; */
+}
+
+/* designer and coder links */
+#banner .bannerl .bannerl-content .designer a{
+    color: var(--main-color);
+}
+#banner .bannerr .bannerr-content .coder a{
+    color: var(--main-color);
+
+}
+
+/* banner right section  */
+#banner .bannerr{
+    background: url(/assets/images/Coder.jpg);
+    height: 30vh;
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* right bannerr  */
+
+#banner .bannerr .bg-right{
+    height: 100%;
+    background:var(--secondary-color);
+    opacity: 30%;
+    position: relative;
+} 
+#banner .bannerr .bannerr-content{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    width: 25%;
+    text-align:right;
+}
+#banner .bannerr-content .coder{
+    font-size: 1rem;
+}
+#banner .bannerr-content .coder .btn:hover{
+    color: #d61b1b;
+}
+#banner .bannerr-content .coder-paragraph{
+    font-size: 0.4rem;
+    padding-left: 2rem;
+}
+
+
+/* Rogue Scientist */
+#rogue{
+    text-align: center;
+    font-size: 0.7rem;
+    /* border: 2px solid red; */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+/* My Story */
+#my-story{
+    display: flex;
+    gap: 1rem; margin-top: 1rem;
+    background-color: var(--main-color);
+    height: 50vh;
+    margin-top: 0rem;
+    /* border: 2px solid red; */
+}
+
+#my-story .story-text{
+    color: var(--primary-color);
+    /* border: 2px solid red; */
+    width: 30%;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+}
+#my-story .story-text h2{
+    font-size: 1rem;
+}
+#my-story .story-text p{
+    font-size: .5rem;
+}
+
+#my-story .story-lens{
+width: 40%;
+/* border: 2px solid red; */
+}
+
+/* some of my latest work  */
+#heading-w{
+    text-align: center;
+}
+
+/* latest works left  */
+
+#latest-works{
+    /* border: 2px solid red; */
+    display: flex;
+} 
+#latest-works .worksl{
+    background-color: var(--primary-color);
+    border: var(--secondary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-color);
+    width: 20%;
+    padding: 0.5rem;
+    margin-left: 8%;
+}
+#latest-works .worksl .cardl{
+    background-color: var(--secondary-color);
+    /* border: 2px solid red; */
+    padding-top: 1.8rem;
+    width: 97%;
+    border-radius: 0.3rem;
+    height: 12.5rem;
+    padding-left: 1rem;
+    /* position: relative; */
+    /* margin-left: 2rem; */
+}
+
+#latest-works .worksl .cardl .card-insidel {
+    /* position:absolute; */
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 0.5rem;
+    width: 95%;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color)
+}
+
+#latest-works .worksl .cardl .card-insidel .card-imgl{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 0.5rem;
+}
+#latest-works .worksl .cardl .card-insidel img{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 0.5rem;
+}
+#latest-works .worksl .bottom-textl{
+    margin-left: 1rem;
+}
+
+
+/* latest works center  */
+#latest-works .worksc{
+    background-color: var(--primary-color);
+    border: var(--secondary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-color);
+    width: 20%;
+    padding: 0.5rem;
+    margin-left: 10%;
+}
+#latest-works .worksc .cardc{
+    background-color: var(--secondary-color);
+    /* border: 2px solid red; */
+    padding-top: 1.8rem;
+    width: 97%;
+    border-radius: 0.3rem;
+    height: 12.5rem;
+    padding-left: 1rem;
+}
+
+#latest-works .worksc .cardc .card-insidec {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 0.5rem;
+    width: 95%;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color)
+}
+
+#latest-works .worksc .cardc .card-insidec .card-imgc{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 0.5rem;
+}
+#latest-works .worksc .cardc .card-insidec img{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 0.5rem;
+}
+#latest-works .worksc .bottom-textc{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+/* latest works right  */
+#latest-works .worksr{
+    background-color: var(--primary-color);
+    border: var(--secondary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--secondary-color);
+    width: 20%;
+    padding: 0.5rem;
+    margin-left: 10%;
+}
+#latest-works .worksr .cardr{
+    background-color: var(--secondary-color);
+    /* border: 2px solid red; */
+    padding-top: 1.8rem;
+    width: 97%;
+    border-radius: 0.3rem;
+    height: 12.5rem;
+    padding-left: 1rem;
+}
+
+#latest-works .worksr .cardr .card-insider {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 0.5rem;
+    width: 93%;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color)
+}
+
+#latest-works .worksr .cardr .card-insider .card-imgr{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 0.5rem;
+}
+#latest-works .worksr .cardr .card-insider{
+    padding-left: 0.3rem;
+}
+#latest-works .worksr .cardr .card-insider img{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 0.5rem;
+}
+#latest-works .worksr .bottom-textr{
+    margin-left: 1rem;
+    text-align: right;
+}
+
+}
